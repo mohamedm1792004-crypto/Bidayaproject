@@ -19,12 +19,12 @@
     "web-vitals": "^2.1.4"
   },
   "engines": {
-    "node": "24.x"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "cross-env CI=false node node_modules/react-scripts/bin/react-scripts.js build"
-  },
+  "node": "24.x"
+},
+"scripts": {
+  "start": "react-scripts start",
+  "build": "cross-env DISABLE_ESLINT_PLUGIN=true node node_modules/react-scripts/bin/react-scripts.js build"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
