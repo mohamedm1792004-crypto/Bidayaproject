@@ -21,10 +21,10 @@
   "engines": {
     "node": "24.x"
   },
- "scripts": {
-  "start": "react-scripts start",
-  "build": "node node_modules/react-scripts/bin/react-scripts.js build"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env CI=false node node_modules/react-scripts/bin/react-scripts.js build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
