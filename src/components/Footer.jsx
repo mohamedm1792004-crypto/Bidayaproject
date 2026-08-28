@@ -78,14 +78,14 @@ function Footer() {
         <p>
           You may download and use this template for your website. Please
           support us by keeping the credit link to{" "}
-          <a href="https://templatemo.com" target="_blank">
+          <a href="https://templatemo.com" target="_blank" rel="noreferrer">
             TemplateMo
           </a>
           .
         </p>
         <p>
           Images:{" "}
-          <a href="https://unsplash.com" target="_blank">
+          <a href="https://unsplash.com" target="_blank" rel="noreferrer">
             Unsplash
           </a>
         </p>
@@ -100,9 +100,9 @@ function Footer() {
         </a>
       </p>
       <div className="footer-social">
-        <a href="#">Instagram</a>
-        <a href="#">Pinterest</a>
-        <a href="#">Facebook</a>
+      <a href="/" onClick={(e) => e.preventDefault()}>Instagram</a>
+<a href="/" onClick={(e) => e.preventDefault()}>Pinterest</a>
+<a href="/" onClick={(e) => e.preventDefault()}>Facebook</a>
       </div>
     </div>
   </div>

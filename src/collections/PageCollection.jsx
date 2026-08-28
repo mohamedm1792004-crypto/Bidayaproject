@@ -4,8 +4,7 @@ import { useCart } from "react-use-cart";
 import { useNavigate } from "react-router-dom";
 import Products from "../products/Products";
 
-// ⬇️ السطر ده كان ناقص، وهو سبب إن الصفحة كانت من غير أي تنسيق خالص.
-// عدّل المسار لو حطيت ملف الـCSS في مكان مختلف عن مجلد الكومبوننت.
+
 
 import {
   Gem,
@@ -509,12 +508,6 @@ export default function CollectionsPage() {
         )}
 
       </section>
-
-      {/* ======================================================
-          FOOTER
-          ====================================================== */}
-
-      <PlaceholderFooter />
 
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+import {link } from "react-router-dom";
 
 function Collections() {
   return (
@@ -12,9 +13,9 @@ function Collections() {
           Discover pieces crafted for every chapter of your story
         </p>
       </div>
-      <a href="#" className="btn-text">
+      <link to="/Collections" className="btn-text">
         View All Collections
-      </a>
+      </link>
     </div>
     <div className="collections-grid">
       <div className="collection-item">

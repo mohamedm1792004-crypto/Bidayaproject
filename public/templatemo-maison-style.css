@@ -49,6 +49,13 @@ body {
 	color: var(--color-charcoal);
 	background-color: var(--color-cream);
 	-webkit-font-smoothing: antialiased;
+	padding-top: 88px;
+}
+
+@media (max-width: 768px) {
+	body {
+		padding-top: 72px;
+	}
 }
 
 img {

@@ -70,8 +70,8 @@ function PageCollection() {
                   {/* Product Image */}
                   <div className="thumb">
 
-                    {/* ✅ FIXED: كان /AllSingleProduct/... وده مش مطابق للـRoute المسجّل */}
-                    <Link to={`/SingleProduct/${item.id}`}>
+                    {/* Matches the route registered in src/index.js: /AllSingleProduct/:id */}
+                    <Link to={`/AllSingleProduct/${item.id}`}>
                       <img
                         src={item.thumbnail}
                         alt={item.title}
@@ -98,10 +98,10 @@ function PageCollection() {
                     <h4>{item.title}</h4>
 
                     {/* View Details */}
-                    {/* ✅ FIXED: كان /AllSingleProduct/... وده مش مطابق للـRoute المسجّل */}
+                    {/* Matches the route registered in src/index.js: /AllSingleProduct/:id */}
                     <Link
                       className="view-details-btn"
-                      to={`/SingleProduct/${item.id}`}
+                      to={`/AllSingleProduct/${item.id}`}
                     >
                       View Details
                     </Link>
